@@ -24,7 +24,6 @@ let package = Package(
             dependencies: [
                 "SwiftyJSON",
                 "AlamofireImage",
-                "SDWebImageWebPCoder",
                 .product(name: "QiscusCore", package: "QiscusCore-iOS")
             ],
             path: "Sources/QiscusMultichannelWidget",
