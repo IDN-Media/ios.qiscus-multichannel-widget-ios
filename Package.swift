@@ -33,9 +33,9 @@ let package = Package(
 		        "SDWebImageWebPCoder",
                 .product(name: "QiscusCore", package: "QiscusCore-iOS")
             ],
-            path: "Source/QiscusMultichannelWidget",
+            path: "Sources/QiscusMultichannelWidget",
 	    resources: [
-        	.process("Source/QiscusMultichannelWidget/")
+        	.process("Sources/QiscusMultichannelWidget/")
 	    ]
         ),
     ]
