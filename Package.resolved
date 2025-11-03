@@ -28,6 +28,15 @@
       }
     },
     {
+      "identity" : "ios.sdwebimagewebpcoder",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/IDN-Media/ios.SDWebImageWebPCoder.git",
+      "state" : {
+        "revision" : "4d77f977bb2edc92189716e311d6afe206c6289e",
+        "version" : "1.0.0"
+      }
+    },
+    {
       "identity" : "libwebp-xcode",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/SDWebImage/libwebp-Xcode.git",
@@ -50,8 +59,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/qiscus/QiscusCore-iOS.git",
       "state" : {
-        "branch" : "support-carthage-v3",
-        "revision" : "87210824b53d29e7877d961c9c68693e236586b7"
+        "revision" : "3ef6e17e5f4150efc8712e3f26d761302a93ef3f",
+        "version" : "1.14.12"
       }
     },
     {
@@ -61,24 +70,6 @@
       "state" : {
         "revision" : "81ea3fa09599f787daafb6930682091fafdcf674",
         "version" : "1.7.1"
-      }
-    },
-    {
-      "identity" : "sdwebimage",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/SDWebImage/SDWebImage.git",
-      "state" : {
-        "revision" : "cac9a55a3ae92478a2c95042dcc8d9695d2129ca",
-        "version" : "5.21.0"
-      }
-    },
-    {
-      "identity" : "sdwebimagewebpcoder",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/SDWebImage/SDWebImageWebPCoder.git",
-      "state" : {
-        "revision" : "f534cfe830a7807ecc3d0332127a502426cfa067",
-        "version" : "0.14.6"
       }
     },
     {

@@ -18,11 +18,9 @@ let package = Package(
 	dependencies: [
         // Dependencies declare other packages that this package depends on.
         .package(url: "https://github.com/SwiftyJSON/SwiftyJSON.git", from: "5.0.2"),
-        .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.10.2")),
         .package(url: "https://github.com/Alamofire/AlamofireImage.git", .upToNextMajor(from: "4.3.0")),
-        .package(url: "https://github.com/SDWebImage/SDWebImage.git", from: "5.10.0"),
-	.package(url: "https://github.com/SDWebImage/SDWebImageWebPCoder.git", from: "0.3.0"),
-	.package(url: "https://github.com/qiscus/QiscusCore-iOS.git", .branch ("support-carthage-v3"))
+	.package(url: "https://github.com/IDN-Media/ios.SDWebImageWebPCoder.git", from: "1.0.0"),
+	.package(url: "https://github.com/qiscus/QiscusCore-iOS.git", from: "1.14.2")
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -31,9 +29,7 @@ let package = Package(
             name: "QiscusMultichannelWidget",
             dependencies: [
                 "SwiftyJSON",
-                "Alamofire",
                 "AlamofireImage",
-                "SDWebImage",
 		"SDWebImageWebPCoder",
                 .product(name: "QiscusCore", package: "QiscusCore-iOS")
             ],
