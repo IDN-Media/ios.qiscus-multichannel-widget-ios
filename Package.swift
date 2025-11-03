@@ -16,7 +16,8 @@ let package = Package(
         .package(url: "https://github.com/SwiftyJSON/SwiftyJSON.git", from: "5.0.2"),
         .package(url: "https://github.com/Alamofire/AlamofireImage.git", .upToNextMajor(from: "4.3.0")),
         .package(url: "https://github.com/IDN-Media/ios.SDWebImageWebPCoder.git", from: "1.0.0"),
-        .package(url: "https://github.com/qiscus/QiscusCore-iOS.git", from: "1.14.2")
+        .package(url: "https://github.com/qiscus/QiscusCore-iOS.git", from: "1.14.2"),
+        .package(url: "https://github.com/SDWebImage/SDWebImage.git", .upToNextMajor(from: "5.21.3")),
     ],
     targets: [
         .target(
@@ -24,7 +25,8 @@ let package = Package(
             dependencies: [
                 "SwiftyJSON",
                 "AlamofireImage",
-                .product(name: "QiscusCore", package: "QiscusCore-iOS")
+                .product(name: "QiscusCore", package: "QiscusCore-iOS"),
+                "SDWebImage"
             ],
             path: "Sources/QiscusMultichannelWidget",
 	    resources: [
