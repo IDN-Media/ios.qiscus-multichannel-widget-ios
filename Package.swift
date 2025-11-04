@@ -28,6 +28,12 @@ let package = Package(
                 .product(name: "QiscusCore", package: "ios.QiscusCore-iOS")
             ],
             path: "Sources/QiscusMultichannelWidget",
+            sources: [
+                "ViewControllers/Chatview",       // Include Swift files in Chatview
+                "ViewControllers/fullimage",      // Include Swift files in fullimage
+                "ViewControllers/webview",         // Include Swift files in webview
+                "ViewControllers/WebFileView" 
+            ],
             resources: [
                 .process("ViewControllers/Chatview"),
                 .process("ViewControllers/fullimage"),
