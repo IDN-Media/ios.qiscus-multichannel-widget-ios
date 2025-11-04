@@ -15,8 +15,8 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/SwiftyJSON/SwiftyJSON.git", from: "5.0.2"),
         .package(url: "https://github.com/Alamofire/AlamofireImage.git", .upToNextMajor(from: "4.3.0")),
-        .package(url: "https://github.com/IDN-Media/ios.SDWebImageWebPCoder.git", from: "1.0.0"),
-        .package(url: "https://github.com/qiscus/QiscusCore-iOS.git", from: "1.14.2"),
+        .package(url: "https://github.com/IDN-Media/ios.SDWebImageWebPCoder.git", from: "1.0.1"),
+        .package(url: "https://github.com/qiscus/QiscusCore-iOS.git", .branch ("support-carthage-v3")),
     ],
     targets: [
         .target(
@@ -24,13 +24,10 @@ let package = Package(
             dependencies: [
                 "SwiftyJSON",
                 "AlamofireImage",
-                "ios.SDWebImageWebPCoder",
+                .product(name: "SDWebImageWebPCoder", package: "ios.SDWebImageWebPCoder"),
                 .product(name: "QiscusCore", package: "QiscusCore-iOS")
             ],
             path: "Sources/QiscusMultichannelWidget",
-	    resources: [
-        	.process("Sources/QiscusMultichannelWidget/")
-	    ]
         ),
     ]
 )

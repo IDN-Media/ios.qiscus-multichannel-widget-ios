@@ -1,5 +1,5 @@
 {
-  "originHash" : "155d8530e0027c0bf87d5148333c10aaaa9d286276068fc93f81e789d880d374",
+  "originHash" : "7dc7c0732c8d665d0c9fe60f7e693680bd75eca4fe535c42b170330b0afb333d",
   "pins" : [
     {
       "identity" : "alamofire",
@@ -26,6 +26,15 @@
       "state" : {
         "revision" : "22b98acc75bdca77917a1093bd3e1b45ef6e9718",
         "version" : "2.1.9"
+      }
+    },
+    {
+      "identity" : "ios.sdwebimagewebpcoder",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/IDN-Media/ios.SDWebImageWebPCoder.git",
+      "state" : {
+        "revision" : "03e2ec36dc4e97c76b43de3ac478ec087224fe08",
+        "version" : "1.0.1"
       }
     },
     {
@@ -69,17 +78,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/SDWebImage/SDWebImage.git",
       "state" : {
-        "revision" : "b62cb63bf4ed1f04c961a56c9c6c9d5ab8524ec6",
-        "version" : "5.21.1"
-      }
-    },
-    {
-      "identity" : "sdwebimagewebpcoder",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/SDWebImage/SDWebImageWebPCoder.git",
-      "state" : {
-        "revision" : "f534cfe830a7807ecc3d0332127a502426cfa067",
-        "version" : "0.14.6"
+        "revision" : "2053b120767c42a70bcba21095f34e4cfb54a75d",
+        "version" : "5.21.3"
       }
     },
     {
