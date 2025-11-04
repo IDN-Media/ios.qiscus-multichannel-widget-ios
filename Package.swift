@@ -33,10 +33,7 @@ let package = Package(
                 "ViewControllers/fullimage",      // Include Swift files in fullimage
                 "ViewControllers/webview",         // Include Swift files in webview
                 "ViewControllers/WebFileView" 
-            ],
-            resources: [
-                .process("ViewControllers/Chatview/ChatCell/QSystemCell.xib"),
-            ],
+            ]
         ),
     ]
 )
