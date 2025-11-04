@@ -33,5 +33,9 @@ let package = Package(
                 .copy("Sources/QiscusMultichannelWidget/**/*.{xib,png}")
             ],
         ),
+        .testTarget(
+            name: "QiscusMultichannelWidgetTests",
+            dependencies: ["QiscusMultichannelWidget"]
+        )
     ]
 )
