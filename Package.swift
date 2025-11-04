@@ -35,9 +35,7 @@ let package = Package(
                 "ViewControllers/WebFileView" 
             ],
             resources: [
-                .process("ViewControllers/Chatview"),
-                .process("ViewControllers/fullimage"),
-                .process("ViewControllers/webview")
+                .process("ViewControllers/Chatview/ChatCell/QSystemCell.xib"),
             ],
         ),
     ]
