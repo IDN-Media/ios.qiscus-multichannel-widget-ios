@@ -28,6 +28,15 @@
       }
     },
     {
+      "identity" : "ios.qiscuscore-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/IDN-Media/ios.QiscusCore-iOS.git",
+      "state" : {
+        "revision" : "cc19df9daf450b01e69b9b06ec83d567329ee67e",
+        "version" : "1.0.0"
+      }
+    },
+    {
       "identity" : "ios.sdwebimagewebpcoder",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/IDN-Media/ios.SDWebImageWebPCoder.git",
@@ -55,21 +64,12 @@
       }
     },
     {
-      "identity" : "qiscuscore-ios",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/qiscus/QiscusCore-iOS.git",
-      "state" : {
-        "branch" : "support-carthage-v3",
-        "revision" : "cc19df9daf450b01e69b9b06ec83d567329ee67e"
-      }
-    },
-    {
       "identity" : "qiscusrealtime-ios",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/qiscus/QiscusRealtime-iOS.git",
       "state" : {
-        "revision" : "81ea3fa09599f787daafb6930682091fafdcf674",
-        "version" : "1.7.1"
+        "revision" : "ae446200a1d5c3ab94f6e13dbaaca15d41703496",
+        "version" : "1.8.0"
       }
     },
     {
