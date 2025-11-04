@@ -29,8 +29,10 @@ let package = Package(
             ],
             path: "Sources/QiscusMultichannelWidget",
             resources: [
-                .process("Sources/QiscusMultichannelWidget/**/*.{h,m,swift,xib}"),
-                .process("Sources/MultichannelWidget/**/*.{png}")
+                .process("ViewControllers/Chatview"),
+                .process("ViewControllers/Chatview/ChatCell"),
+                .process("ViewControllers/fullimage"),
+                .process("ViewControllers/webview")
             ],
         ),
     ]
