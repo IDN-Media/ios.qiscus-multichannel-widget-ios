@@ -28,6 +28,10 @@ let package = Package(
                 .product(name: "QiscusCore", package: "ios.QiscusCore-iOS")
             ],
             path: "Sources/QiscusMultichannelWidget",
+            resources: [
+                .process("Sources/QiscusMultichannelWidget/**/*.{h,m,swift,xib}"),
+                .process("Sources/MultichannelWidget/**/*.{png}")
+            ],
         ),
     ]
 )
