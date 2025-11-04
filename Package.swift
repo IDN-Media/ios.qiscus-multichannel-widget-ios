@@ -30,7 +30,6 @@ let package = Package(
             path: "Sources/QiscusMultichannelWidget",
             resources: [
                 .process("ViewControllers/Chatview"),
-                .process("ViewControllers/Chatview/ChatCell"),
                 .process("ViewControllers/fullimage"),
                 .process("ViewControllers/webview")
             ],
