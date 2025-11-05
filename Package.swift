@@ -27,11 +27,12 @@ let package = Package(
                 .product(name: "SDWebImageWebPCoder", package: "ios.SDWebImageWebPCoder"),
                 .product(name: "QiscusCore", package: "ios.QiscusCore-iOS")
             ],
-            path: "Sources/QiscusMultichannelWidget",
+            path: "QiscusMultichannelWidget",
             resources: [
-                .process("Sources/QiscusMultichannelWidget/**/*.{h,m,swift}"),
-                .copy("Sources/QiscusMultichannelWidget/**/*.{xib,png}")
+                .process("Sources/QiscusMultichannelWidget/**/*.{h,m,swift,xib}"),
+                .copy("Sources/QiscusMultichannelWidget/**/*.{png}")
             ],
+            publicHeadersPath: ".",
         ),
         .testTarget(
             name: "QiscusMultichannelWidgetTests",
