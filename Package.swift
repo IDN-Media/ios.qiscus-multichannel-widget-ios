@@ -34,7 +34,7 @@ let package = Package(
             ],
             resources: [
                 .process("QiscusMultichannelWidget/Media.xcassets"),
-                .process("QiscusMultichannelWidget/Resources/QSystemCell.xib")
+                .process("QiscusMultichannelWidget/Resources")
             ],
             publicHeadersPath: "include"
         )
