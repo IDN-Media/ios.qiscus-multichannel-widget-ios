@@ -16,17 +16,7 @@ public class QiscusMultichannelWidget {
     
     static var bundle:Bundle{
         get{
-            #if SWIFT_PACKAGE
-                return .module
-            #else
-                let podBundle = Bundle(for: QiscusMultichannelWidget.self)
-            
-                if let bundleURL = podBundle.url(forResource: "QiscusMultichannelWidget", withExtension: "bundle") {
-                    return Bundle(url: bundleURL)!
-                }else{
-                    return podBundle
-                }
-            #endif
+            return .module
         }
     }
     

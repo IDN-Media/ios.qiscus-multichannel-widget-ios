@@ -7,11 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58285F262EBAECE6002A56F5 /* QiscusMultichannelWidget in Frameworks */ = {isa = PBXBuildFile; productRef = 20E267482DE0BA37002B38AC /* QiscusMultichannelWidget */; };
+		58285F272EBAECE6002A56F5 /* QiscusCore in Frameworks */ = {isa = PBXBuildFile; productRef = 20E2674B2DE0BD4E002B38AC /* QiscusCore */; };
+		58285F282EBAECE6002A56F5 /* QiscusMultichannelWidget in Frameworks */ = {isa = PBXBuildFile; productRef = 20CF66E22DE4132D005682AE /* QiscusMultichannelWidget */; };
+		58285F292EBAECE6002A56F5 /* QiscusMultichannelWidget in Frameworks */ = {isa = PBXBuildFile; productRef = 20EE9F682E12679200FC278F /* QiscusMultichannelWidget */; };
+		58285F2A2EBAECE6002A56F5 /* QiscusMultichannelWidget in Frameworks */ = {isa = PBXBuildFile; productRef = 20EE9F742E127C3200FC278F /* QiscusMultichannelWidget */; };
+		58285F2B2EBAECE6002A56F5 /* QiscusMultichannelWidget in Frameworks */ = {isa = PBXBuildFile; productRef = 20EE9F922E127C9F00FC278F /* QiscusMultichannelWidget */; };
+		58285F2C2EBAECE6002A56F5 /* QiscusMultichannelWidget in Frameworks */ = {isa = PBXBuildFile; productRef = 20EE9FBF2E127F7A00FC278F /* QiscusMultichannelWidget */; };
+		58285F2D2EBAECE6002A56F5 /* QiscusMultichannelWidget in Frameworks */ = {isa = PBXBuildFile; productRef = 20EE9FC32E12806600FC278F /* QiscusMultichannelWidget */; };
+		58285F2E2EBAECE6002A56F5 /* QiscusMultichannelWidget in Frameworks */ = {isa = PBXBuildFile; productRef = 20EE9FC92E12817000FC278F /* QiscusMultichannelWidget */; };
+		58285F2F2EBAECE6002A56F5 /* QiscusMultichannelWidget in Frameworks */ = {isa = PBXBuildFile; productRef = 20EE9FCC2E12824800FC278F /* QiscusMultichannelWidget */; };
+		58285F302EBAECE6002A56F5 /* QiscusMultichannelWidget in Frameworks */ = {isa = PBXBuildFile; productRef = 20EE9FCF2E12836700FC278F /* QiscusMultichannelWidget */; };
+		58285F312EBAECE6002A56F5 /* QiscusMultichannelWidget in Frameworks */ = {isa = PBXBuildFile; productRef = 588670A62EB902AB0065420F /* QiscusMultichannelWidget */; };
+		58285F322EBAECE6002A56F5 /* QiscusMultichannelWidget in Frameworks */ = {isa = PBXBuildFile; productRef = 58BF1A622EB9A8AB008AE770 /* QiscusMultichannelWidget */; };
 		58BF1A862EB9AA36008AE770 /* QiscusMultichannelWidget in Frameworks */ = {isa = PBXBuildFile; productRef = 58BF1A852EB9AA36008AE770 /* QiscusMultichannelWidget */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		20E2670B2DE09BDB002B38AC /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58285F372EBAECE6002A56F5 /* Example.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Example.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -40,6 +54,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58285F322EBAECE6002A56F5 /* QiscusMultichannelWidget in Frameworks */,
+				58285F312EBAECE6002A56F5 /* QiscusMultichannelWidget in Frameworks */,
+				58285F302EBAECE6002A56F5 /* QiscusMultichannelWidget in Frameworks */,
+				58285F2F2EBAECE6002A56F5 /* QiscusMultichannelWidget in Frameworks */,
+				58285F2E2EBAECE6002A56F5 /* QiscusMultichannelWidget in Frameworks */,
+				58285F2D2EBAECE6002A56F5 /* QiscusMultichannelWidget in Frameworks */,
+				58285F2C2EBAECE6002A56F5 /* QiscusMultichannelWidget in Frameworks */,
+				58285F2B2EBAECE6002A56F5 /* QiscusMultichannelWidget in Frameworks */,
+				58285F2A2EBAECE6002A56F5 /* QiscusMultichannelWidget in Frameworks */,
+				58285F292EBAECE6002A56F5 /* QiscusMultichannelWidget in Frameworks */,
+				58285F282EBAECE6002A56F5 /* QiscusMultichannelWidget in Frameworks */,
+				58285F272EBAECE6002A56F5 /* QiscusCore in Frameworks */,
+				58285F262EBAECE6002A56F5 /* QiscusMultichannelWidget in Frameworks */,
 				58BF1A862EB9AA36008AE770 /* QiscusMultichannelWidget in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,6 +96,11 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58285F3D2EBAECE6002A56F5 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +172,12 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 20E2670C2DE09BDB002B38AC /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 58285F3D2EBAECE6002A56F5 /* Products */;
+					ProjectRef = 58285F372EBAECE6002A56F5 /* Example.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				20E2670A2DE09BDB002B38AC /* Example */,
@@ -175,20 +213,27 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CKU8534HU9;
+				DEVELOPMENT_TEAM = YY8F8FMUG3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Example/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sample Widget";
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) uses camera";
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "$(PRODUCT_NAME) want read file";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "$(PRODUCT_NAME) read the file";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.qiscus.example.spm.Example;
+				PRODUCT_BUNDLE_IDENTIFIER = com.idn.example.spm.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -203,20 +248,27 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CKU8534HU9;
+				DEVELOPMENT_TEAM = YY8F8FMUG3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Example/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sample Widget";
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) uses camera";
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "$(PRODUCT_NAME) want read file";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "$(PRODUCT_NAME) read the file";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.qiscus.example.spm.Example;
+				PRODUCT_BUNDLE_IDENTIFIER = com.idn.example.spm.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

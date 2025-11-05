@@ -100,7 +100,6 @@ final class ChatManager {
     
     func userTapNotification(userInfo : [AnyHashable : Any]) {
         self.qiscusWidget.handleNotification(userInfo: userInfo, removePreviousNotif: true)
-//        .startChat(withRoomId: <#T##String#>, callback: <#T##(UIViewController) -> Void#>)
     }
 }
 
