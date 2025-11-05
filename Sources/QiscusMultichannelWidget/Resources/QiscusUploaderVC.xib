@@ -198,7 +198,7 @@
                                 <constraint firstAttribute="trailing" secondItem="qaz-XA-cHL" secondAttribute="trailing" constant="58" id="l4e-oC-cnJ"/>
                             </constraints>
                         </view>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V3e-KY-TbT" customClass="UploadImageCollection" customModule="QiscusMultichannelWidget" customModuleProvider="target">
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V3e-KY-TbT" customClass="UploadImageCollection" customModule="QiscusMultichannel">
                             <rect key="frame" x="0.0" y="76" width="414" height="60"/>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             <constraints>

@@ -145,7 +145,7 @@
                         <constraint firstItem="VKX-wa-0hr" firstAttribute="centerY" secondItem="pJb-b8-C46" secondAttribute="centerY" id="wD0-IV-IhE"/>
                     </constraints>
                 </view>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="91K-kh-Yps" customClass="UploadImageCollection" customModule="QiscusMultichannelWidget">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="91K-kh-Yps" customClass="UploadImageCollection" customModule="QiscusMultichannel">
                     <rect key="frame" x="0.0" y="768" width="414" height="60"/>
                     <color key="backgroundColor" red="0.98039215686274506" green="0.98039215686274506" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
