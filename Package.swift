@@ -27,7 +27,7 @@ let package = Package(
                 .product(name: "SDWebImageWebPCoder", package: "ios.SDWebImageWebPCoder"),
                 .product(name: "QiscusCore", package: "ios.QiscusCore-iOS")
             ],
-            path: "Sources/QiscusMultichannelWidget",
+            path: "QiscusMultichannelWidget",
             exclude: [
                 // Exclude any files that should not be part of the target
                 "Info.plist"
