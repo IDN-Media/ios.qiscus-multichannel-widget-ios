@@ -7,7 +7,7 @@
 
 import Foundation
 import UIKit
-import QiscusMultichannelWidget
+import QiscusMultichannel
 import QiscusCore
 
 enum ChatTransitionType {

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import QiscusMultichannelWidget
+import QiscusMultichannel
 
 class ViewController: UIViewController {
 

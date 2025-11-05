@@ -2,14 +2,14 @@
 import PackageDescription
 
 let package = Package(
-    name: "QiscusMultichannelWidget",
+    name: "QiscusMultichannel",
     platforms: [
         .iOS(.v11) // iOS 10 support is extremely old and not always supported by dependencies
     ],
     products: [
         .library(
-            name: "QiscusMultichannelWidget",
-            targets: ["QiscusMultichannelWidget"]
+            name: "QiscusMultichannel",
+            targets: ["QiscusMultichannel"]
         ),
     ],
     dependencies: [
@@ -20,22 +20,23 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "QiscusMultichannelWidget",
+            name: "QiscusMultichannel",
             dependencies: [
                 "SwiftyJSON",
                 "AlamofireImage",
                 .product(name: "SDWebImageWebPCoder", package: "ios.SDWebImageWebPCoder"),
                 .product(name: "QiscusCore", package: "ios.QiscusCore-iOS")
             ],
-            path: "QiscusMultichannelWidget",
+            path: "Sources",
             exclude: [
                 // Exclude any files that should not be part of the target
-                "Info.plist"
+                "QiscusMultichannelWidget/Info.plist"
             ],
             resources: [
-                .process("."),
+                .process("QiscusMultichannelWidget/Media.xcassets"),
+                .process("QiscusMultichannelWidget/Resources")
             ],
-            publicHeadersPath: "."
+            publicHeadersPath: "include"
         )
     ]
 )
